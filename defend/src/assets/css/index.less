@@ -1,0 +1,70 @@
+html,body{
+	font-size: 16px;
+}
+#app{
+	min-width: auto;
+}
+.home{
+  display: flex;
+}
+.left{
+  flex: 2;
+  .logo{
+    background-color: #2B282D;
+    .router-link-active{
+      background-color: #2B282D;
+    }
+    a{
+      font-size: 20px;
+      font-weight: bold;
+      color: #4977FC;
+      background:#2B282D;
+      opacity:1;
+      border-radius:0;
+      img{
+        width: 47px;
+        height: 57px;
+        vertical-align: middle;
+        margin-right: 13px;
+      }
+    }
+  }
+  li{
+    text-align: right;
+    height: 80px;
+    line-height: 80px;
+    cursor: pointer;
+    overflow: hidden;
+    a{
+      list-style: none;
+      text-decoration: none;
+      display: inline-block;
+      color: #595959;
+      font-size: 18px;
+      width: 80%;
+      height: 58px;
+      line-height: 58px;
+      text-align: left;
+      padding-left: 10px;
+      border-radius:26px 0px 0px 26px;
+      vertical-align: middle;
+      overflow: hidden;
+      img{
+        vertical-align: middle;
+        margin-right: 30px;
+      }
+    }
+    .router-link-active{
+      color: #4977FC;
+      border-radius:26px 0px 0px 26px;
+      background-color: #BFD6FF;
+    }
+	}
+}
+
+.right{
+  flex: 10;
+  background: url(../img/1.png) no-repeat;
+  background-size: 100%;
+  background-color: #EAEFF3;
+}
